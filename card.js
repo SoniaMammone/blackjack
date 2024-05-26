@@ -25,7 +25,7 @@ Card.prototype.isSpecialCard = function(){
 }
 
 Card.prototype.createImgPath = function(){
-    let path = `images/cards/${this.suit.substring(0, 1)}${this.isSpecialCard() ?
+    return `images/cards/${this.suit.substring(0, 1)}${this.isSpecialCard() ?
          this.name.substring(0, 1).toUpperCase() : this.name}.png`;
 }
 

@@ -7,8 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="dealerHand"></section>
-    <section id="playerHand"></section>
-    <script src="game.js"></script>
+    <header>
+        <div id="scores">
+            <section id="playerScore"><p></p></section>
+            <section id="dealerScore"><p></p></section>
+        </div>
+        <div id="message">
+            <p></p>
+        </div>
+    </header>
+    <div id="hands">
+        <section id="dealerHand"></section>
+        <section id="playerHand"></section>
+    </div>
+    <div>
+        <button id="hit">hit</button>
+        <button id="stay">stay</button>
+    </div>
+    <script src="card.js"></script>
+    <script src="deck.js"></script>
+    <script src="player.js"></script>
+    <script src="dealer.js"></script>
+    <script src="view.js"></script>
+    <script src="blackjack.js"></script>
 </body>
 </html>

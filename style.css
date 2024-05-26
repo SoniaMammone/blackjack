@@ -1,0 +1,33 @@
+#dealerHand img, #playerHand img{
+    width: 150px;
+}
+
+#hands{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    border: 1px solid black;
+    background-image: url("images/table.jpg");
+    background-size: cover;
+}
+
+#scores{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+}
+
+#message p{
+    text-align: center;
+    color: red;
+}
+
+#message{
+    width: 80%;
+}
